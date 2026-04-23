@@ -6,6 +6,10 @@ public class Door : MonoBehaviour
     [SerializeField] private Vector3 openOffset;
     [SerializeField] private float speed = 2f;
 
+
+    // Added 
+    [SerializeField] private EnemyMovement_NoNavMesh e;
+    //
     private Vector3 closedPosition;
     private Vector3 openPosition;
     private bool isOpen = false;
@@ -31,5 +35,12 @@ public class Door : MonoBehaviour
     public void SetOpen(bool open)
     {
         isOpen = open;
+
+        //Added
+        if (e != null)
+        {
+            e.SetDoorOpen(isOpen);
+        }
+        //
     }
 }

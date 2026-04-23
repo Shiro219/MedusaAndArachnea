@@ -239,6 +239,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1719235749033598937, guid: 0ff7a7f1e9c756546ae7935251d7dcc6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1719235749033598937, guid: 0ff7a7f1e9c756546ae7935251d7dcc6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1719235749033598937, guid: 0ff7a7f1e9c756546ae7935251d7dcc6, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1719235749033598937, guid: 0ff7a7f1e9c756546ae7935251d7dcc6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1719235749033598937, guid: 0ff7a7f1e9c756546ae7935251d7dcc6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -8
+      objectReference: {fileID: 0}
     - target: {fileID: 3193618606042131420, guid: 0ff7a7f1e9c756546ae7935251d7dcc6, type: 3}
       propertyPath: m_Name
       value: Medusa
@@ -296,6 +316,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 370287722678347967, guid: 422241b94504fa64eac5d23f35e625fb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 370287722678347967, guid: 422241b94504fa64eac5d23f35e625fb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 370287722678347967, guid: 422241b94504fa64eac5d23f35e625fb, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 370287722678347967, guid: 422241b94504fa64eac5d23f35e625fb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

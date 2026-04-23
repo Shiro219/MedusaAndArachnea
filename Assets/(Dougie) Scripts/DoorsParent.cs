@@ -69,5 +69,6 @@ public class DoorsParent : MonoBehaviour
     {
         yield return new WaitForSeconds(3);
         Debug.Log("Changing Level!");
+        Loader.Load(Loader.Scene.LevelOne);
     }
 }
