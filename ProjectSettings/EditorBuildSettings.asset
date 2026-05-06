@@ -37,19 +37,16 @@ EditorBuildSettings:
     guid: 822b4426a670fa74a9cf661132888e5e
   - enabled: 1
     path: Assets/Rull's Work/LevelThreeForAnimation.unity
-    guid: 392d026dc1971f8418d5613fc64b8f74
-  - enabled: 1
-    path: Assets/Florencio/Levels/LevelA.unity
-    guid: b80ba52986488aa4ea7a77a064936678
-  - enabled: 1
-    path: Assets/Scenes/LoadingScene.unity
-    guid: 811bc8f833c8e38419bca85f9166c348
-  - enabled: 1
-    path: Assets/Florencio/4_Credits/Credits.unity
-    guid: c117f03d6bc6d7f47bcbe5428b7c638e
+    guid: 1404fc60b14cc1846b121063f5eadcd4
   - enabled: 1
     path: Assets/Florencio/3_Levels/LevelA.unity
     guid: b80ba52986488aa4ea7a77a064936678
+  - enabled: 1
+    path: Assets/Florencio/2_Credits/Credits.unity
+    guid: c117f03d6bc6d7f47bcbe5428b7c638e
+  - enabled: 1
+    path: Assets/Scenes/LoadingScene.unity
+    guid: 811bc8f833c8e38419bca85f9166c348
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
