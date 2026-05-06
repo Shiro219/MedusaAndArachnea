@@ -7,14 +7,24 @@ public class Loader : MonoBehaviour
     {
         LevelOne,
         LevelTwo,
-        LevelThreeForAnimation,
+        LevelThree,
         LevelA,
         Credits,
         LoadingScene,
     }
 
-    public static Scene[] levelList = { Scene.LevelOne, Scene.LevelTwo, Scene.LevelThreeForAnimation, Scene.LevelA, Scene.Credits};
+    public static Scene[] levelList = { Scene.LevelOne, Scene.LevelTwo, Scene.LevelThree, Scene.LevelA, Scene.Credits};
     public static int index = 1;
+
+    public static void setIndex(int indexNew)
+    {
+        index = indexNew;
+    }
+
+    // public int getIndex(Scene newScene)
+    // {
+    //     return index;
+    // }
 
     private static Scene targetScene;
 
@@ -27,6 +37,6 @@ public class Loader : MonoBehaviour
 
     public static void LoaderCallback()
     {
-        SceneManager.LoadScene(levelList[index++].ToString());
+        SceneManager.LoadScene(levelList[index].ToString());
     }
 }

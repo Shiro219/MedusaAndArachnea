@@ -190,7 +190,7 @@ public class Menu_Manager : MonoBehaviour
             {
                 selectLevelMenu.SetActive(false);
 
-                SceneManager.LoadScene("LevelThreeForAnimation");
+                SceneManager.LoadScene("LevelThree");
 
                 return;
             }
