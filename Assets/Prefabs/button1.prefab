@@ -81,7 +81,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 1607075912, guid: 80ad4bfbfef7da4458c7779f3c38a9b6, type: 3}
+  m_Sprite: {fileID: -691752325, guid: d7f8d346efa062a43bfe8b3af973139e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -162,9 +162,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Button
   door: {fileID: 6633107508474521898, guid: 6270efddce0d3814d9f22c84a3959cee, type: 3}
-  spriteRenderer: {fileID: 0}
-  redSprite: {fileID: 0}
-  greenSprite: {fileID: 0}
+  spriteRenderer: {fileID: 5870910956270348416}
+  redSprite: {fileID: -691752325, guid: d7f8d346efa062a43bfe8b3af973139e, type: 3}
+  greenSprite: {fileID: -109168895, guid: d7f8d346efa062a43bfe8b3af973139e, type: 3}
   buttonOn: {fileID: 8300000, guid: e9cc7f460f6d8e24e9e4e8e9309e5e78, type: 3}
   buttonOff: {fileID: 8300000, guid: daaed71413554264bb3b82e9d0947aa6, type: 3}
 --- !u!82 &5921497764743513222

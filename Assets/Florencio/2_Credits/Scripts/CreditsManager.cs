@@ -40,13 +40,22 @@ public class CreditsManager : MonoBehaviour
     {
         HandleClicks();
 
-        if(creditsFinished)
+        if (Keyboard.current.spaceKey.isPressed)
         {
-            if(!exitButtonActive)
+            ani.speed = 4f;
+        }
+        else
+        {
+            ani.speed = 1f;
+        }
+
+        if (creditsFinished)
+        {
+            if (!exitButtonActive)
             {
                 timer += Time.deltaTime;
 
-                if(timer >= 3f)
+                if (timer >= 2f)
                 {
                     exitButton.gameObject.SetActive(true);
                     exitButtonActive = true;
@@ -57,7 +66,7 @@ public class CreditsManager : MonoBehaviour
 
         stateInfo = ani.GetCurrentAnimatorStateInfo(0);
 
-        if(stateInfo.IsName("Credits_Scroll") && stateInfo.normalizedTime >= 1f)
+        if (stateInfo.IsName("Credits_Scroll") && stateInfo.normalizedTime >= 1f)
         {
             thanks.gameObject.SetActive(true);
             creditsFinished = true;

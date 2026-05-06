@@ -143,7 +143,7 @@ public class PauseManager : MonoBehaviour
         {
             if(LevelCompleted.IsLevel2Completed())
             {
-                LoadScene("LevelThreeForAnimation");
+                LoadScene("LevelThree");
             }
             else
             {

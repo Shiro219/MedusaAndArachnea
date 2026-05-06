@@ -5,27 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Rull's Work/Scene for animation and sp.unity
-    guid: f598288f57404cb4e85f3cc3ebf9ae6f
-  - enabled: 0
-    path: Assets/Rull's Work/LevelOneForanimation.unity
-    guid: ece255769c4442a4b9e373d09283d45a
-  - enabled: 0
-    path: Assets/Rull's Work/LevelTwoForAnimation.unity
-    guid: e663426191179694185e72d389a6101d
-  - enabled: 0
-    path: Assets/Rull's Work/CreditsForAnimation.unity
-    guid: 5278a1813598d0d45a51a9c15dd12bf9
-  - enabled: 0
-    path: Assets/Scenes/Dougie - Enemy Testing.unity
-    guid: 3610d4f3b9bfa1c47936a106b9d0478b
-  - enabled: 0
-    path: Assets/Florencio/3_LevelTwo(Dupe/LevelTwo(Dupe).unity
-    guid: e29d65c9c882d374aa01351151158420
-  - enabled: 0
-    path: Assets/Florencio/2_LevelOne(Dupe)/LevelOne(Dupe).unity
-    guid: 4ce9a06367f250049896d3ef9eb6601c
   - enabled: 1
     path: Assets/Florencio/1_MainMenu/MainMenu.unity
     guid: 485cc5816cc587d44b926a40412eff47
@@ -33,29 +12,19 @@ EditorBuildSettings:
     path: Assets/Scenes/LevelOne.unity
     guid: d5a231cbce11f7441bbb5e9563dcc876
   - enabled: 1
+    path: Assets/Scenes/LoadingScene.unity
+    guid: 811bc8f833c8e38419bca85f9166c348
+  - enabled: 1
     path: Assets/Scenes/LevelTwo.unity
     guid: 822b4426a670fa74a9cf661132888e5e
-  - enabled: 0
+  - enabled: 1
     path: Assets/Rull's Work/LevelThree.unity
     guid: 812c36f2e08531e40a0b3b322579da9a
   - enabled: 1
     path: Assets/Florencio/3_Levels/LevelA.unity
     guid: b80ba52986488aa4ea7a77a064936678
   - enabled: 1
-    path: Assets/Scenes/LoadingScene.unity
-    guid: 811bc8f833c8e38419bca85f9166c348
-  - enabled: 1
     path: Assets/Florencio/2_Credits/Credits.unity
     guid: c117f03d6bc6d7f47bcbe5428b7c638e
-  - enabled: 1
-    path: Assets/Florencio/3_Levels/LevelA.unity
-    guid: b80ba52986488aa4ea7a77a064936678
-  - enabled: 1
-    path: Assets/Scenes/LevelThree.unity
-    guid: a23e3819046d49745a6fbe82889c3fcc
-  - enabled: 1
-    path: Assets/Scenes/LoadingScene.unity
-    guid: 811bc8f833c8e38419bca85f9166c348
-  m_configObjects:
-    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
