@@ -35,15 +35,24 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LevelTwo.unity
     guid: 822b4426a670fa74a9cf661132888e5e
-  - enabled: 1
-    path: Assets/Rull's Work/LevelThreeForAnimation.unity
-    guid: 1404fc60b14cc1846b121063f5eadcd4
+  - enabled: 0
+    path: Assets/Rull's Work/LevelThree.unity
+    guid: 812c36f2e08531e40a0b3b322579da9a
   - enabled: 1
     path: Assets/Florencio/3_Levels/LevelA.unity
     guid: b80ba52986488aa4ea7a77a064936678
   - enabled: 1
+    path: Assets/Scenes/LoadingScene.unity
+    guid: 811bc8f833c8e38419bca85f9166c348
+  - enabled: 1
     path: Assets/Florencio/2_Credits/Credits.unity
     guid: c117f03d6bc6d7f47bcbe5428b7c638e
+  - enabled: 1
+    path: Assets/Florencio/3_Levels/LevelA.unity
+    guid: b80ba52986488aa4ea7a77a064936678
+  - enabled: 1
+    path: Assets/Scenes/LevelThree.unity
+    guid: a23e3819046d49745a6fbe82889c3fcc
   - enabled: 1
     path: Assets/Scenes/LoadingScene.unity
     guid: 811bc8f833c8e38419bca85f9166c348
