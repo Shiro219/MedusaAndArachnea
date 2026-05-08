@@ -1465,7 +1465,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &281833485
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1540,7 +1540,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &312679293
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2725,6 +2725,10 @@ PrefabInstance:
     - target: {fileID: 136123161662380251, guid: ad3ea13f9a9ce2d458ffadacb23ac063, type: 3}
       propertyPath: m_Name
       value: CinemachineCamera (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 136123161662380251, guid: ad3ea13f9a9ce2d458ffadacb23ac063, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 145123515077350794, guid: ad3ea13f9a9ce2d458ffadacb23ac063, type: 3}
       propertyPath: Target.TrackingTarget
@@ -5098,7 +5102,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &961255068
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11797,7 +11801,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1855058141
 RectTransform:
   m_ObjectHideFlags: 0

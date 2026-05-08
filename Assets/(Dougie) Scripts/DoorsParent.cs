@@ -116,7 +116,7 @@ public class DoorsParent : MonoBehaviour
         {
             LevelCompleted.SetLevel2Completed();
         }
-        if (currentSceneName == "LevelThreeForAnimation")
+        if (currentSceneName == "LevelThree")
         {
             LevelCompleted.SetLevel3Completed();
         }
